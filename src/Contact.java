@@ -7,26 +7,8 @@ public class Contact {
     public String email;
     public int age;
 
-    public Contact() {
-        this.name = "Ben Drake";
-    }
-
-    public Contact(String name, String address, String email, int age) {
-        this.name= name;
-        this.address= address;
-        this.email= email;
-        this.age= age;
-    }
-
-    public String getName(){
-        return this.name;
-    }
-
-    public void setName (String name) {
+    public Contact (String name, int age) {
         this.name = name;
+        this.age = age;
     }
-
-    public static boolean isValidName(String name) {
-        return name.length() != 0; }
-
 }
