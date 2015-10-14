@@ -7,8 +7,13 @@ public class Contact {
     public String email;
     public int age;
 
+    public Contact(){
+
+    }
+
     public Contact (String name, int age) {
         this.name = name;
         this.age = age;
+
     }
 }
