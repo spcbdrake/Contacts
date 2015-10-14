@@ -16,4 +16,20 @@ public class Contact {
         this.age = age;
 
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
