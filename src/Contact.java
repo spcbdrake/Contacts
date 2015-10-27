@@ -40,7 +40,7 @@ public class Contact implements Comparable {
         if (result == 0) {
             return age - c.age;
         } else {
-            return result
+            return result;
         }
     }
 }

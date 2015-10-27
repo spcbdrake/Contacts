@@ -11,7 +11,7 @@ public class exercise4 {
         for (String word : words) {
             String cleanedWord = word.toLowerCase().replace(",", "");
             if (frequencies.get(cleanedWord) == null) {
-                frequencies.put(cleanedWord), 1;
+                frequencies.put(cleanedWord, 1);
             }
             else {
                 int count = frequencies.get(cleanedWord);

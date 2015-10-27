@@ -17,7 +17,7 @@ public class Contacts {
         contacts.add(bob);
         contacts.add(alice);
         contacts.add(charlie);
-        contacts.add(alice2)
+        contacts.add(alice2);
 
         Collections.sort(contacts);
 
